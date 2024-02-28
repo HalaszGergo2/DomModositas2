@@ -1,0 +1,22 @@
+img{
+    width: 100%;
+}
+#kutyak{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+.kutya{
+    border: 1px solid black;
+    padding: 15px;
+}
+#kep{
+    height: 250px;
+    overflow: hidden;
+}
+@media screen and (max-width: 600px) {
+    #kutyak{
+        grid-template-columns: 1fr;
+    }
+}
